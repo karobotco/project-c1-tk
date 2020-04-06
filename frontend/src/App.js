@@ -1,12 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import SlideHands from './components/SlideHands';
+import React from "react";
+import "./assets/styles/App.scss";
+import SlideHands from "./components/SlideHands";
 
 function App() {
-  return (
-    <SlideHands />
-  );
+  return <SlideHands />;
 }
 
 export default App;
